@@ -1,0 +1,182 @@
+@media (max-width: 1400px){
+    .left{
+        position: absolute;
+        left: -120%;
+        transition:all 0.3s;
+        z-index: 1;
+        width:370px;
+        background-color: black;
+    }
+    .right{
+        width:100vw;
+        height: 100vh;
+    }
+    .playbar{
+        min-height: 40px;
+        width:calc(100vw - 70px);
+    }
+    .seekBar {
+        width: calc(100vw - 80px);
+    }
+    .hamburger{
+        display: block;
+    }
+    .close {
+        display: block;
+        width: 50px;
+        position: absolute;
+        top: 55px;
+        right: 30px;
+        cursor: pointer;
+    }
+}
+@media (max-width: 1045px) and (min-width: 700px){
+    body{
+        overflow: hidden;
+    }
+    .play {
+        top: 255px;
+    }
+    .left{
+        height: 90vh;
+        width: 35vh;
+    }
+    .infoBar{
+        font-size: 12px;
+        gap: 20px;
+        padding: 0;
+        overflow: hidden;
+    }
+    .card {
+        width: 40vw;
+    }
+    .play{
+        top: 265px;
+        right: 20px;
+    }
+    .cardContainer {
+        margin: 30px 0 0;
+        height: 77vh;
+        justify-content: center;
+    }
+    .nav {
+        width: 100px;
+        gap: 30px;
+    }
+    .nav svg {
+        display: none;
+    }
+    .signupBtn, .loginBtn{
+        font-size: 12px;
+        padding:8px 16px ;
+    }
+    .songInfo{
+        width: 300px;
+        max-height: 15px;
+        overflow: hidden;
+        text-align: center;
+    }
+}
+
+@media (max-width: 700px){
+    .left{
+        height: 100vh;
+        width: 100vw;
+    }
+    .infoBar{
+        font-size: 12px;
+        gap: 20px;
+        padding: 0;
+        overflow: hidden;
+    }
+    .card {
+        width: 40vw;
+    }
+    .cardContainer {
+        margin: 30px 0 0;
+        height: 77vh;
+        justify-content: center;
+    }
+    .play {
+        top: 235px;
+    }
+    .nav {
+        width: 100px;
+        gap: 30px;
+    }
+    .nav svg {
+        display: none;
+    }
+    .signupBtn, .loginBtn{
+        font-size: 12px;
+        padding:8px 16px ;
+    }
+    .songInfo{
+        width: 300px;
+        max-height: 15px;
+        overflow: hidden;
+        text-align: center;
+    }
+}
+
+@media (max-width: 570px){
+    .cardContainer{
+        margin: 30px auto 0;
+        height: 60vh;
+        justify-content: center;
+    }
+    .play {
+        top: 375px;
+        right: 20px;
+    }
+    .card{
+        width: 70vw;
+    }
+    .card img{
+        width: 100%;
+    }
+    .songInfo{
+        width: 300px;
+    }
+    .infoBar {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 400px){
+    .right{
+        height: 100vh;
+    }
+    .songInfo{
+        width: 100px;
+        max-height: 15px;
+        overflow: hidden;
+    }
+    .infoBar {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .cardContainer{
+        height: 57vh;
+    }
+    .card{
+        width: 80vw;
+    }
+}
+
+@media (max-width: 350px){
+    .buttons{
+        display: none;
+        transition: all 0.3s;
+    }
+}
+
+@media (min-width: 2000px){
+    .playbar{
+        width:70vw;
+    }
+}
